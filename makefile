@@ -5,10 +5,6 @@ infinite:	infinite.c
 add:	add.cc
 	c++ -o add.exe add.cc
 
-
-clean:	
-	rm -f *.o a.out
-
-cleanall:
+clean:
 	rm -f *.o *.exe
 
