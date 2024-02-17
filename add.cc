@@ -1,7 +1,10 @@
 #include <iostream>
+//#Thu Feb 15 10:21:01 PM EST 2024
+//# studying the book Pro Git example
 
 int main()
 {
+	std::cout << "Hello"  << std::endl;
         // prompt user to enter two numbers
         std::cout << "Enter two numbers:" << std::endl; 
         int v1 = 0, v2 = 0;
