@@ -31,9 +31,8 @@
 *.exe
 *.out
 *.app
-
+# vim swap file 
 *.swp
-*.out
 # Prerequisites
 *.d
 
@@ -62,8 +61,4 @@
 *.a
 *.lib
 
-# Executables
-*.exe
-*.out
-*.app
 
