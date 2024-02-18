@@ -31,7 +31,7 @@
 *.exe
 *.out
 *.app
-# vim swap file 
+# Vim swap file 
 *.swp
 # Prerequisites
 *.d
