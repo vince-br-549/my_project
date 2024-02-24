@@ -1,7 +1,8 @@
-all:		infinite add hello BSTWithClass AVLClass
+all:		infinite add hello BSTWithClass myCodeschoolDoubleLinkedList
 
-AVLClass:	AVLclass.cpp  AVL.cpp  AVL.h
-	c++ -o  AVLclass.exe  AVL.cpp AVLclass.cpp
+myCodeschoolDoubleLinkedList:	myCodeschoolDoubleLinkedList.cpp
+		c++ -o myCodeschoolDoubleLinkedList.exe myCodeschoolDoubleLinkedList.cpp
+
 
 BSTWithClass:	BSTWithClass.cpp
 	c++ -o BSTWithClass.exe BSTWithClass.cpp
