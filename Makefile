@@ -1,20 +1,19 @@
-all:		infinite add hello BSTWithClass myCodeschoolDoubleLinkedList
+main:	BSTWithClass.exe add.exe hello.exe infinite.exe myCodeschoolDoubleLinkedList.exe
 
-myCodeschoolDoubleLinkedList:	myCodeschoolDoubleLinkedList.cpp
-		c++ -o myCodeschoolDoubleLinkedList.exe myCodeschoolDoubleLinkedList.cpp
+add.exe:	add.cc
+	g++ -o add.exe add.cc
 
+BSTWithClass.exe:	BSTWithClass.cpp
+	g++ -o BSTWithClass.exe BSTWithClass.cpp
 
-BSTWithClass:	BSTWithClass.cpp
-	c++ -o BSTWithClass.exe BSTWithClass.cpp
+hello.exe:	hello.cc
+	g++ -o hello.exe hello.cc
 
-hello:		hello.cc
-		c++ -o hello.exe hello.cc
+infinite.exe:	infinite.c
+	g++ -o infinite.exe infinite.c
 
-infinite:	infinite.c
-		c++ -o inifinite.exe infinite.c
-add:		add.cc
-		c++ -o add.exe add.cc
+myCodeschoolDoubleLinkedList.exe:	myCodeschoolDoubleLinkedList.cpp
+	g++ -o myCodeschoolDoubleLinkedList.exe myCodeschoolDoubleLinkedList.cpp
 
 clean:
-		rm -f *.o *.exe
-
+	rm -rf *.o *.exe a.out  
