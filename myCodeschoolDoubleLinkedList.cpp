@@ -83,12 +83,12 @@ int main() {
 	cout << "Doublely linked list" << endl;
 	head = nullptr;  // initialize it !
 	int count,data;
-	cout << "You will be prompted to enter the data for each element." << endl;
+        cout << "You will be prompted to enter the data for each element." << endl;
 	cout << "Enter number of elements to insert at beginning of the list:" ;
 	cin >> count;
+
 	for (int i=0; i<count; i++ )
 	{
-		cout << "enter data for item " << i << endl;
 		cin >> data;
 		InsertAtHead(data);
 	}

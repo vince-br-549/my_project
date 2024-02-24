@@ -25,7 +25,7 @@ struct BstNode {
 class BST{
 private:
 	BstNode* head;
-	int dups;
+	int dups = 0;
 	bool displayDups = false;
 
 	void delete_bin_tree(BstNode* root) {
