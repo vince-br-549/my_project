@@ -22,6 +22,7 @@ struct BstNode {
 };
 
 
+int  count = 100;
 class BST{
 private:
 	BstNode* head;
@@ -98,9 +99,9 @@ private:
 	}
 
 	void InorderPrint(BstNode* root) {
-		if (root == nullptr) return;
+		if (root == nullptr) return ;
 		InorderPrint(root->left);
-		cout << root->data << " ";
+		if (count <= 100)  cout << root->data << " ";
 		InorderPrint(root->right);
 	}
 
@@ -161,8 +162,8 @@ public:
 		}
 	}
 	void Print(){
-		InorderPrint(head);
-		cout << endl;
+		 InorderPrint(head);
+
 	}
 	int GetDups() {
 		// return the number of attempts to insert a duplicate record. The entry was not innserted.
@@ -184,7 +185,7 @@ public:
 };
 
 int main(int argc, char **argv) {
-	int count = 100, requestedCount;
+	int  requestedCount;
 	BST  myBST;		// Instantiate
 
 	srand(time(NULL));	// seeding the random number generator
@@ -206,12 +207,17 @@ int main(int argc, char **argv) {
 
 	if (myBST.Validate()) {
 		cout << "My BST has been validated." << endl;
-		if ( myBST.GetDups()) cout << "There were " << myBST.GetDups() << " Duplicates that were not inserted." << endl;
+		if ( myBST.GetDups()) {
+			cout << "There were " << 
+				myBST.GetDups() << 
+				" Duplicates that were not inserted." << endl;
+		} else {
+			cout << "No inserts failed because of duplicates." << endl;
+		}
 	}
 	cout << "The smallest data value is: " << myBST.GetMin() << " , the largest is : " << myBST.GetMAX() << endl;
 	cout << "The tree height is: " << myBST.GetHeighT() << endl;
-	if ( count <= 100)
-		myBST.Print();
-	cout << "All is well that ends well!`:";
+	myBST.Print();
+	cout << endl << endl << "All is well that ends well!:" << endl;
 	return 0;
 }
