@@ -99,6 +99,7 @@ int		AVL::getBalanceFactor() {
 //
 // private
 int AVL::getBalanceFactor(Node *n){
+	// eeep segmentation fault here. 
         if(n->left && n->right){
             return n->left->height - n->right->height;
         }
