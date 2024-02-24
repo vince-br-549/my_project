@@ -1,4 +1,7 @@
-all:		infinite add hello BSTWithClass
+all:		infinite add hello BSTWithClass AVLClass
+
+AVLClass:	AVLclass.cpp  AVL.cpp  AVL.h
+	c++ -o  AVLclass.exe  AVL.cpp AVLclass.cpp
 
 BSTWithClass:	BSTWithClass.cpp
 	c++ -o BSTWithClass.exe BSTWithClass.cpp
