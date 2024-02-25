@@ -1,5 +1,9 @@
 main:	BSTWithClass.exe add.exe hello.exe infinite.exe myCodeschoolDoubleLinkedList.exe
 
+#
+# this make file seems to work properly.
+#
+
 add.exe:	add.cc
 	g++ -o add.exe add.cc
 
