@@ -1,5 +1,5 @@
 Sat Feb 24 12:51:03 PM EST 2024
- can I sign it
+No I can't
 well turned on vigilent flag
  apparently no.  failed missing private key?
 
