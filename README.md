@@ -1,13 +1,34 @@
-Sat Feb 24 08:18:05 PM EST 2024
+Tue Feb 27 11:08:03 AM EST 2024
+My_project --- messing with git.
 
-Sat Feb 24 12:51:03 PM EST 2024
-No I can't
-well turned on vigilent flag
- apparently no.  failed missing private key?
+some free GUI tools to use with git:
+Aurees
+Fugitive
+Git Klient
+GitFiend
+GitUI
+GitVine
+Gitgui
+Gitnuro
+Gittyup 
+Glint
+Guitar
+LazyGit
+Magit 
+MeGit (based on EGit)
+Pragma-git
+SmarkGit
+Vershd
+giggle
+git-cola
+gitg
+gitkraken
+gitonic
+kdiff3
+meld
+ungit
 
 
-Sun Feb 18 10:08:20 PM EST 2024
-messing with git
 
 My Project
 testing git using the Pro Git book.
