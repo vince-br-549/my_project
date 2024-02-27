@@ -22,7 +22,8 @@ Vershd
 giggle
 git-cola
 gitg
-gitkraken
+gitkraken 
+    free version does not support private repositorys
 gitonic
 kdiff3
 meld
