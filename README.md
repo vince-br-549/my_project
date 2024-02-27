@@ -4,30 +4,34 @@ My_project --- messing with git.
 some free GUI tools to use with git:
 Aurees
 Fugitive
-Git Klient
-GitFiend
-GitUI
-GitVine
-Gitgui
-Gitnuro
-Gittyup 
-Glint
-Guitar
-LazyGit
-Magit 
-MeGit (based on EGit)
-Pragma-git
-SmarkGit
-Vershd
 giggle
 git-cola
+    available on fedora repo
+GitFiend
 gitg
-gitkraken 
+Gitgui
+    available on fedora repo
+Git Klient
+gitkraken
     free version does not support private repositorys
+Gitnuro
 gitonic
+Gittyup
+GitVine
+Glint
+Guitar
 kdiff3
+    available on fedora repo
+LazyGit
+Magit
+MeGit (based on EGit)
+    available on fedora repo
 meld
+    available on fedora repo
+Pragma-git
+SmarkGit
 ungit
+Vershd
 
 
 
