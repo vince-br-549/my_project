@@ -1,7 +1,8 @@
 #include <iostream>
-//#Thu Feb 15 10:21:01 PM EST 2024
-//# studying the book Pro Git example
-int main()
+/*
+ * practiceing with git
+ */
+int main(int argc, char *argv[])
 {
 	std::cout << "Hello"  << std::endl;
         // prompt user to enter two numbers

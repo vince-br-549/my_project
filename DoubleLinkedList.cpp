@@ -78,7 +78,8 @@ void Reverse() {
 
 }
 
-int main() {
+int main(int argc, char **arg)
+{
 
 	cout << "Doublely linked list" << endl;
 	head = nullptr;  // initialize it !

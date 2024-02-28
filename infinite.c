@@ -8,7 +8,7 @@ void infinite_loop(void)
     while(1);
 }
 
-int main(void)
+int main(int argc, char **argv)
 {
     printf("PID: %d\n", getpid());
     fflush(stdout);

@@ -1,5 +1,5 @@
-#include <iostream>
-int main()
+dinclude <iostream>
+int main(int argc, char **argv)
 {
 	/*
 	 * some comments
