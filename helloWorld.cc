@@ -1,7 +1,7 @@
 #include <iostream>
 
 /*
- * practice git and c++
+ * back to the future
  */
 
 int main(int argc, char **argv) {
