@@ -6,7 +6,7 @@ int main(int argc, char **argv)
 {
 	std::cout << "Hello"  << std::endl;
         // prompt user to enter two numbers
-        std::cout << "Enter two integers:" << std::endl; 
+        std::cout << "Enter two integers:"; 
         int v1 = 0, v2 = 0;
         std::cin >> v1 >> v2;   
         std::cout << "The sum of " << v1 << " and " << v2
