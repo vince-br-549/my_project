@@ -1,7 +1,10 @@
 #
 # this make file seems to work properly.
 #
-main:	BSTWithClass.exe add.exe hello.exe infinite.exe DoubleLinkedList.exe
+main:	BSTWithClass.exe add.exe hello.exe infinite.exe DoubleLinkedList.exe HashTable.exe
+
+HashTable.exe:	HashTable.cpp
+	g++ -o HashTable.exe HashTable.cpp
 
 
 add.exe:	add.cc
