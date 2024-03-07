@@ -1,14 +1,11 @@
 #include <iostream>
-int main(int argc, char **argv)
-{
-	/*
-	 * some comments
-	 */
 
-	float version=2.1;
-	std::cout<< "Helo  my world" << std::endl;
-	std::cout<< "Version: " << version << std:: endl;
+/*
+ * back to the future
+ */
+
+int main(int argc, char **argv) {
+	std::cout<<"Hello World" << std::endl;
 	return 0;
 }
-
 
