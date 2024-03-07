@@ -1,8 +1,9 @@
 Thu Mar  7 04:56:46 PM EST 2024
-
+###############################
+Using git revert:
 all changes in the commit you revert to will be "reverted"
 
-# This will create three separate revert commits, use non merge commits only:
+# This example will create three separate revert commits, use non merge commits only:
 git revert a867b4af 25eee4ca 0766c053
 
 # It also takes ranges. This will revert the last two commits:
@@ -21,3 +22,4 @@ git checkout 0d1d7fc32 .
 
 # Then commit. Be sure and write a good message describing what you just did
 git commit
+###############################
