@@ -49,8 +49,7 @@ typedef struct HashTable
 LinkedList *allocate_list()
 {
     // Allocates memory for a LinkedList pointer.
-    LinkedList *list = new LinkedList();  // vince use the c++ way.
-    // LinkedList *list = (LinkedList *)malloc(sizeof(LinkedList));
+    LinkedList *list = (LinkedList *)malloc(sizeof(LinkedList));
     return list;
 }
 
@@ -151,8 +150,7 @@ void free_overflow_buckets(HashTable *table)
 Ht_item *create_item(char *key, char *value)
 {
     // Creates a pointer to a new HashTable item.
-    Ht_item *item = new Ht_item();  // vince use the c++ way
-    //Ht_item *item = (Ht_item *)malloc(sizeof(Ht_item));
+    Ht_item *item = (Ht_item *)malloc(sizeof(Ht_item));
     item->key = (char *)malloc(strlen(key) + 1);
     item->value = (char *)malloc(strlen(value) + 1);
     strcpy(item->key, key);
@@ -163,8 +161,7 @@ Ht_item *create_item(char *key, char *value)
 HashTable *create_table(int size)
 {
     // Creates a new HashTable.
-    HashTable *table = new HashTable();  // vince use the c++ way
-    // HashTable *table = (HashTable *)malloc(sizeof(HashTable));
+    HashTable *table = (HashTable *)malloc(sizeof(HashTable));
     table->size = size;
     table->count = 0;
     table->items = (Ht_item **)calloc(table->size, sizeof(Ht_item *));
