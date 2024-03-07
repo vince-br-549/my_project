@@ -1,5 +1,6 @@
 #
 # this make file seems to work properly.
+# Thu Mar  7 12:19:12 PM EST 2024
 #
 main:	BSTWithClass.exe add.exe hello.exe infinite.exe DoubleLinkedList.exe HashTable.exe
 
@@ -23,4 +24,4 @@ DoubleLinkedList.exe:	DoubleLinkedList.cpp
 	g++ -o DoubleLinkedList.exe DoubleLinkedList.cpp
 
 clean:
-	rm -rf *.o *.exe a.out  
+	rm -rf *.o *.exe a.out
