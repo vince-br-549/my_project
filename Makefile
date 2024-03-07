@@ -1,6 +1,7 @@
 #
 # this make file seems to work properly.
-# Thu Mar  7 12:19:12 PM EST 2024
+# Thu Mar  7 04:57:46 PM EST 2024
+# commit 3
 #
 main:	BSTWithClass.exe add.exe hello.exe infinite.exe DoubleLinkedList.exe HashTable.exe
 
