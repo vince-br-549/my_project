@@ -23,3 +23,7 @@ git checkout 0d1d7fc32 .
 # Then commit. Be sure and write a good message describing what you just did
 git commit
 ###############################
+to fix a detached HEAD
+git switch MASTER or what ever branch you were in with the detached head.
+
+###############################
