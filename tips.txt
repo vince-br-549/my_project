@@ -21,3 +21,9 @@ git checkout 0d1d7fc32 .
 
 # Then commit. Be sure and write a good message describing what you just did
 git commit
+######################################
+To change the text of an old commit.... find it then...
+ git rebase -i HEAD~3 or
+git rebase -i <sha1>
+
+in edit change the line from pick -> edit or reword on the commit.
