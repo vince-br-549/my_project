@@ -27,3 +27,4 @@ to fix a detached HEAD
 git switch MASTER or what ever branch you were in with the detached head.
 
 ###############################
+in edit change the line from pick -> edit or reword on the commit.
