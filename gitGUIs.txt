@@ -3,18 +3,20 @@ My_project --- messing with git.
 
 some free GUI tools to use with git:
 Aurees
+diffuse
+	available on Fedor repos
 Fugitive
     a plugin for vim, located on github.
 giggle
 git-cola
-    available on fedora repo
+    available on Fedora repo
 GitFiend
 gitg
-    available on fedora repo
+    available on Fedora repo
 Gitgui
-    available on fedora repo
+    available on Fedora repo
 gitkraken
-    available on fedora repo
+    available on Fedora repo
     installed
     free version does not support private repositorys
 Gitnuro
@@ -26,22 +28,24 @@ Glint
 Guitar
     available on github, no rpm available.
 kdiff3
-    available on fedora repo
+    available on Fedora repo
     installed
 kommit
-    available on fedora r
+    available on Fedora r
 LazyGit
 Magit
-    available on fedora repo
+    available on Fedora repo
 MeGit (based on EGit)
 meld
-    available on fedora repo
+    available on Fedora repo
     installed
 Pragma-git
 SmarkGit
 ungit
 Vershd
-
+vimdiff
+	available on Fedora repo
+	installed
 
 
 My Project
