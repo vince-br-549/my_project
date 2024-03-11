@@ -1,4 +1,26 @@
 Thu Mar  7 04:56:46 PM EST 2024
+
+###############################
+restore vs revert vs reset
+
+    There are three commands with similar names: git reset, git restore and git revert.
+
+        git-revert is about making a new commit that reverts the changes made by other commits.
+        git-restore is about restoring files in the working tree from either the index or another commit.
+        This command does not update your branch.
+        The command can also be used to restore files in the index from another commit.
+        git-reset is about updating your branch, moving the tip in order to add or remove commits from the branch. This operation changes the commit history.
+        git reset can also be used to restore the index, overlapping with git restore.
+Examples  restore:
+	if a file is staged ( you did an add but not a commit )
+	git restore <file> puts it back to the last commit.
+
+	git restore --staged <file> # unstages it.
+
+	git restore --source=HEAD --staged --worktree <file>  #
+	if the file was staged this returns the file to original commit condition ( eg not staged
+	and not modified ).
+Examples reset:
 ###############################
 Using git revert:
 all changes in the commit you revert to will be "reverted"
@@ -24,7 +46,5 @@ git checkout 0d1d7fc32 .
 git commit
 ###############################
 to fix a detached HEAD
-git switch MASTER or what ever branch you were in with the detached head.
-
+git switch <branchname>
 ###############################
-in edit change the line from pick -> edit or reword on the commit.
