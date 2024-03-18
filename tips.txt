@@ -48,3 +48,4 @@ git commit
 to fix a detached HEAD
 git switch <branchname>
 ###############################
+Use git checkout to undelete a file.
