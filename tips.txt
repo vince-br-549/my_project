@@ -49,3 +49,7 @@ to fix a detached HEAD
 git switch <branchname>
 ###############################
 Use git checkout to undelete a file.
+If you accidently deleted a file then do several commits enter
+git checkout <sha1 where the file still existed>  -- <filename>
+or
+git checkout <tag> -- <filename>
